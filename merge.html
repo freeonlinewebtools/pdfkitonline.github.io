@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merge PDF Files Online — Free, No Upload | PDFKit Online</title>
+  <meta name="description" content="Merge multiple PDF files into one document in your browser. Free, private, and no signup required." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:title" content="Merge PDF Files Online — Free, No Upload | PDFKit Online" />
+  <meta property="og:description" content="Combine multiple PDF files into a single PDF in your browser." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://grrrp.github.io/pdfkit-online/merge.html" />
+  <link rel="canonical" href="https://grrrp.github.io/pdfkit-online/merge.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Merge PDF - PDFKit Online",
+    "url": "https://grrrp.github.io/pdfkit-online/merge.html",
+    "applicationCategory": "UtilityApplication"
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar"><div class="container"><a class="brand" href="index.html">PDFKit Online</a><p class="privacy">Your files stay on your device.</p><nav id="toolNav" class="nav"></nav></div></header>
+  <main class="container layout-2">
+    <section>
+      <h1>Merge PDF</h1>
+      <p class="privacy">Merge PDF files in one click. Processing happens locally in your browser.</p>
+      <div id="dropzone" class="dropzone">Drop PDF files here or click to browse<input id="fileInput" type="file" hidden accept="application/pdf" multiple /></div>
+      <div class="controls">
+        <button id="mergeBtn">Merge PDFs</button>
+      </div>
+      <div id="status" class="notice">Add at least two PDF files.</div>
+      <div id="previews" class="preview-list"></div>
+    </section>
+    <aside><div class="ad-slot"><!-- AdSense code here --></div></aside>
+  </main>
+  <script defer src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script defer src="js/common.js"></script>
+  <script type="module" src="js/merge.js"></script>
+</body>
+</html>

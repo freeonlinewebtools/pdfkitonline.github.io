@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF to PNG Converter Online — Free | PDFKit Online</title>
+  <meta name="description" content="Convert PDF pages to PNG images instantly in your browser. Free and private." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:title" content="PDF to PNG Converter Online — Free | PDFKit Online" />
+  <meta property="og:description" content="Convert PDF pages to high-quality PNG images in your browser." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://grrrp.github.io/pdfkit-online/pdf-to-png.html" />
+  <link rel="canonical" href="https://grrrp.github.io/pdfkit-online/pdf-to-png.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PDF to PNG - PDFKit Online",
+    "url": "https://grrrp.github.io/pdfkit-online/pdf-to-png.html",
+    "applicationCategory": "UtilityApplication"
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar"><div class="container"><a class="brand" href="index.html">PDFKit Online</a><p class="privacy">Your files stay on your device.</p><nav id="toolNav" class="nav"></nav></div></header>
+  <main class="container layout-2">
+    <section>
+      <h1>PDF to PNG</h1>
+      <p class="privacy">Convert each PDF page into a PNG image and download everything as a ZIP.</p>
+      <div id="dropzone" class="dropzone">Drop one PDF here or click to browse<input id="fileInput" type="file" hidden accept="application/pdf" /></div>
+      <div class="controls">
+        <button id="convertBtn">Convert to PNG</button>
+      </div>
+      <div id="status" class="notice">Upload one PDF to convert all pages.</div>
+      <div id="previews" class="preview-list"></div>
+    </section>
+    <aside><div class="ad-slot"><!-- AdSense code here --></div></aside>
+  </main>
+  <script defer src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script defer src="js/common.js"></script>
+  <script type="module" src="js/pdf-to-png.js"></script>
+</body>
+</html>

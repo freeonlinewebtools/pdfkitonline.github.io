@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grrrp.github.io/pdfkit-online/sitemap.xml
+Host: grrrp.github.io

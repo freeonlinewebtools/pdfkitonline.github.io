@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remove PDF Pages Online — Free | PDFKit Online</title>
+  <meta name="description" content="Delete specific pages from a PDF file in your browser. Free, secure, and no signup." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:title" content="Remove PDF Pages Online — Free | PDFKit Online" />
+  <meta property="og:description" content="Delete unwanted PDF pages using page ranges directly in your browser." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://grrrp.github.io/pdfkit-online/remove.html" />
+  <link rel="canonical" href="https://grrrp.github.io/pdfkit-online/remove.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Remove PDF Pages - PDFKit Online",
+    "url": "https://grrrp.github.io/pdfkit-online/remove.html",
+    "applicationCategory": "UtilityApplication"
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar"><div class="container"><a class="brand" href="index.html">PDFKit Online</a><p class="privacy">Your files stay on your device.</p><nav id="toolNav" class="nav"></nav></div></header>
+  <main class="container layout-2">
+    <section>
+      <h1>Remove PDF Pages</h1>
+      <p class="privacy">Keep only the pages you need by removing specific page ranges.</p>
+      <div id="dropzone" class="dropzone">Drop one PDF here or click to browse<input id="fileInput" type="file" hidden accept="application/pdf" /></div>
+      <div class="controls">
+        <label>Pages to remove (e.g. 2,4-6)
+          <input id="rangeInput" type="text" placeholder="2,4-6" />
+        </label>
+        <button id="removeBtn">Remove Pages</button>
+      </div>
+      <div id="status" class="notice">Upload one PDF and define pages to remove.</div>
+    </section>
+    <aside><div class="ad-slot"><!-- AdSense code here --></div></aside>
+  </main>
+  <script defer src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script defer src="js/common.js"></script>
+  <script defer src="js/remove.js"></script>
+</body>
+</html>
